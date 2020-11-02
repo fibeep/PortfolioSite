@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Capstone Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white p-2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-white">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+    
+                </ul>
+                <ul class="navbar-nav ml-auto mr-4 mt-2 mt-lg-0 text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Top Section w/ Avatar -->
+    <div class="text-white text-center pb-5 avatar pt-5">
+        <div class="container d-flex align-items-center flex-column">
+            <img src="img/avataaars.png" alt="" class="mb-5 img-fluid">
+            <h1>Salomon Cohen</h1>  
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="pt-5" id="work">
+        <div class="container text-center">
+            <h2>Work Experiences</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-5 work-exp">  
+                <a href="#" data-toggle="modal" data-target="#workExp1">
+                    <img src="img/3.png" alt="" class="img-fluid rounded"></a>    
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 work-exp">
+                 <a href="#" data-toggle="modal" data-target="#workExp2"><img src="img/4.png" alt="" class="img-fluid rounded"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 work-exp">
+                 <a href="#" data-toggle="modal" data-target="#workExp3"><img src="img/1.png" alt="" class="img-fluid rounded"></a>   
+                </div>
+            
+                <div class="col-md-6 col-lg-4 mb-5 work-exp"> 
+                 <a href="#" data-toggle="modal" data-target="#workExp4"><img src="img/6.png" alt="" class="img-fluid rounded"></a>   
+                </div>
+            
+                <div class="col-md-6 col-lg-4 mb-5 work-exp">
+                 <a href="#" data-toggle="modal" data-target="#workExp5"><img src="img/2.png" alt="" class="img-fluid rounded"></a>   
+                </div>
+            
+                <div class="col-md-6 col-lg-4 mb-5 work-exp">
+                 <a href="#" data-toggle="modal" data-target="#workExp6"><img src="img/5.png" alt="" class="img-fluid rounded"></a>         
+                </div>        
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="workExp1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Algebra 2 Teacher</h2>
+                                <img src="img/3.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">During my Junior year of high-school, I was given the opportunity to be a TA in the Algebra 2 class. I started out
+                                helping students who fell behind, but later on developed my small group of 4 students. These students eventually caught
+                                up and overtook their classmates, which led to the school allowing me to become their teacher. Personalizing the
+                                curriculum to their learning styles allowed us to advance at even faster rates, leading to my students learning 20-30%
+                                more by the end of the year. For them, this meant a new transcript reading " Algebra 2 Advanced" and the ability to join
+                                the Honors Pre-Calculus class the following year.<br>
+                                See: Letter of Recommendation</p>
+                                <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="workExp2">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Crypto Currency Farm Manager</h2>
+                                <img src="img/4.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">During the crypto currency boom, I was tasked to design, build and manage the largest cryptocurrency farm in Panama.
+                                Taking into account airflow, electric capacity, and remote-access, I designed and programmed the entire farm so that it
+                                could be run and fixed remotely with minimal on-site presence. I managed over 100 machines, ensuring minimal downtime
+                                and smooth operation.<br>
+                                See: Letter of Recommendation<br>
+                                See: Pictures</p>
+                                <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="workExp3">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Special Ed Chemistry Tutor</h2>
+                                <img src="img/1.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">During my senior year in high-school, I volunteered to give up my study periods in order to help a special ed student
+                                learn chemistry. In the beginning, this student was on the verge of dropping out from chemistry due to extremely low
+                                grades. Through hard work, and consistency, I tutored him 3-5 times per week and in the end, he was able to pass the
+                                class with a B+.<br>
+                                See: Letter of Recommendation</p>
+                                    <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="workExp4">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Wordpress Developer</h2>
+                                <img src="img/6.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">During the Coronavirus Quarantine, I decided that I would learn to develop websites in Wordpress. After countless weeks
+                                learning about the platform and its uses, I was able to create various projects. Some noteworthy projects I headed was
+                                the redesigning and rebuilding of the website for MotorEmotion S.A in Panama. The redesign focused on enhancing user
+                                experience as well as optimizing the amount of leads generated. Another noteworthy project was the implementation of an
+                                online academy for Generation EPI, which allowed them to reach a broader market by offering low-cost online courses.<br>
+                                See: Letter of Recommendation<br>
+                                See: Letter of Recommendation</p>
+                                <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="workExp5">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Private Math Tutor</h2>
+                                <img src="img/2.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">Throughout the last couple of years, I have tutored countless students across multiple schools worldwide. My specialty
+                                is teaching students (6th grade on) who lack basic, yet fundamental math knowledge, which prevents them from
+                                understanding higher level math. Throughout this experience, I realized that the largest hurdle these students usually
+                                have is self doubt about whether they can actually learn math or not. After the first class, which is mainly focused in
+                                rebuilding trust in themselves, the process flows smoothly.</p>
+                                <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="workExp6">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="work-head">Computer Builder</h2>
+                                <img src="img/5.png" alt="" class="img-fluid rounded mb-5">
+                                <p class="mb-5 work-desc">Having had a passion about computers since the first time I laid my eyes upon one, I set myself out to build my own.
+                                After experiencing that joy, I decided that I would build computers for others aswell. I have built multiple computers,
+                                ranging from tiny form factors packing enormous power, to custom cooled computers that double as conversation pieces.
+                                This passion lead to me co-founding the largest Facebook marketplace for high-end computer pieces in Panama.<br>
+                                See: Pictures
+                                [link FB group].</p>
+                                <button class="btn btn-warning" type="button" data-dismiss="modal">Close Window</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center ">
+        <h2>Blog Posts</h2>
+    </div>
+    <!-- Carousel -->
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="img/distraction_article.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Calendar + To-do List = Productivity</h4>
+                                            <p>How can we achieve productivity, when we receive group messages every second, emails every minute, phone calls every
+                                            hour, and new instagram posts daily (at the optimal time to receive likes, may I add).</p>
+                                            <a href="https://www.linkedin.com/pulse/calendar-to-do-list-productivity-how-productive-economy-cohen/" class="btn btn-primary" target="_blank">Read More<i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="img/habits.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>The Pareto Principle.... and the Key to Habit Formation</h4>
+                                            <p>The Pareto Principle is based on the idea that 20% of actions generate 80% of results.</p>
+                                            <a href="https://www.linkedin.com/pulse/pareto-principle-key-habit-formation-salomon-cohen/" class="btn btn-primary" target="_blank">Read More<i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="img/make_something.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>I Want to "Make Something People Want"​..</h4>
+                                            <p>The motto of the world's leading investor in tech startup, Y Combinator, is to "Make something people want."</p>
+                                            <a href="https://www.linkedin.com/pulse/i-want-make-something-people-so-how-do-salomon-cohen/" class="btn btn-primary" target="_blank">Read More<i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="img/team_prod_market.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Team, Product, or Market? - The key to success</h4>
+                                            <p>The dream team, the best product, or the market conditions, which is the key to success?</p>
+                                            <a href="https://www.linkedin.com/pulse/team-product-market-key-success-salomon-cohen/" class="btn btn-primary" target="_blank">Read More<i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="thumb-wrapper">
+                                        <div class="img-box">
+                                            <img src="img/UBooky.jpeg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Reading Enthusiasts Fear No More..</h4>
+                                            <p>Growing up, I’ve always been an avid reader. I’d be more excited with a trip to Barnes and Nobles than to a trip to Toys
+                                            R Us.</p>
+                                            <a href="https://medium.com/@salomonco/reading-enthusiasts-fear-no-more-ill-tell-you-what-to-do-with-your-stacks-of-old-books-b9bb073e3bcd" class="btn btn-primary" target="_blank">Read More<i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Footer -->
+    <footer class="footer text-center text-white bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 pt-5 pb-3">
+                    <h4 class="text-uppercase mb-4">Find Me Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/salomon-cohen-01377a199/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/fibeep" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html> 
